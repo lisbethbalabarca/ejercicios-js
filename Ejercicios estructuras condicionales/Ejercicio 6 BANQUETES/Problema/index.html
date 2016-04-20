@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE>La_Langosta_ahumada</TITLE>
+	</HEAD>
+	<BODY onload="la_langosta_ahumada();">
+		<SCRIPT type="text/javascript">
+			//Este codigo ha sido generado por el modulo psexport 20160408-w32 de PSeInt.
+			//Es posible que el codigo generado no sea completamente correcto. Si encuentra
+			//errores por favor reportelos en el foro (http://pseint.sourceforge.net).
+
+			function la_langosta_ahumada() {
+				var n, plato;
+				document.write("cantidad de personas para el evento",'<BR/>');
+				n = prompt();
+				if (n<200) {
+					plato = 95;
+					document.write(" El costo por plato es: ",plato,'<BR/>');
+					document.write(" El costo total del servicio seria de:",(n*plato),'<BR/>');
+				} else {
+					if (n<=300) {
+						plato = 85;
+						document.write(" El costo por plato es: ",plato,'<BR/>');
+						document.write(" El costo total del servicio seria de:",(n*plato),'<BR/>');
+					} else {
+						if (n>300) {
+							plato = 75;
+							document.write(" El costo por plato es: ",plato,'<BR/>');
+							document.write(" El costo total del servicio seria de:",(n*plato),'<BR/>');
+						}
+					}
+				}
+			}
+			
+		</SCRIPT>
+	</BODY>
+</HTML>

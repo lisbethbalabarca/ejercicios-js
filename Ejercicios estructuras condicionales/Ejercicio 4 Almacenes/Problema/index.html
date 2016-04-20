@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE>El_harapiento_distinguido</TITLE>
+	</HEAD>
+	<BODY onload="el_harapiento_distinguido();">
+		<SCRIPT type="text/javascript">
+			//Este codigo ha sido generado por el modulo psexport 20160408-w32 de PSeInt.
+			//Es posible que el codigo generado no sea completamente correcto. Si encuentra
+			//errores por favor reportelos en el foro (http://pseint.sourceforge.net).
+
+			function el_harapiento_distinguido() {
+				var a, descuento;
+				document.write("valor del traje",'<BR/>');
+				a = Number(prompt());
+				if (a>=2500) {
+					descuento = (a*0.15);
+					document.write("el descuento es:",descuento,'<BR/>');
+					document.write("total a pagar ",(a-descuento),'<BR/>');
+				} else {
+					descuento = (a*0.08);
+					document.write("el descuento es:",descuento,'<BR/>');
+					document.write("total a pagar ",(a-descuento),'<BR/>');
+				}
+			}
+			
+		</SCRIPT>
+	</BODY>
+</HTML>
