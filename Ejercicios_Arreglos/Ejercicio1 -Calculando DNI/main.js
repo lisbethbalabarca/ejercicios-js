@@ -9,7 +9,7 @@ if(dni<0 || dni>99999999 || dni.length>8){
 	if(letras[resto]==letra){
 		alert("El N° y letra del DNI son correctos.");
 	} else{
-		alert("La letra indicada no es correcta.");
+	alert("La letra indicada no es correcta." +"\n la letra correcta es: " + letras[resto]);
 	}
 }
 

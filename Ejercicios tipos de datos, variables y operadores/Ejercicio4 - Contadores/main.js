@@ -1,11 +1,8 @@
 function contador(){
 	var number=Number(prompt("Ingresa un número"));
-	var uno=number+5;
-	var dos=uno+21;
-	var tres= dos-4;
-	alert("El número que has ingresado es "+number+"\nEl resultado de los contadores es: "+uno+" "+dos+" "+tres);
+	var a=number+5;
+	var b=a+21;
+	var c= b-4;
+	alert("El número que has ingresado es "+number+"\nEl resultado de los contadores es: "+a+" "+b+" "+c);
 }
 contador();
-
-
-
